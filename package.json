@@ -1,8 +1,8 @@
 {
   "name": "@team-griffin/react-font-importer",
-  "version": "1.3.0",
-  "main": "dist/cjs/css-longhand.js",
-  "module": "dist/es/css-longhand.js",
+  "version": "1.3.1",
+  "main": "dist/cjs/react-font-importer.js",
+  "module": "dist/es/react-font-importer.js",
   "repository": "git@github.com:team-griffin/react-font-importer.git",
   "author": "Joshua Thornton <joshua.thornton@heg.com>",
   "license": "MIT",
