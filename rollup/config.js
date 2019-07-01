@@ -5,11 +5,11 @@ export default {
   input: 'src/index.js',
   output: [
     {
-      file: 'dist/es/react-font-importer.development.js',
+      file: 'dist/es/react-font-importer.js',
       format: 'es',
     },
     {
-      file: 'dist/cjs/react-font-importer.development.js',
+      file: 'dist/cjs/react-font-importer.js',
       format: 'cjs',
     },
   ],
@@ -19,5 +19,11 @@ export default {
       exclude: 'node_modules/**',
       plugins: ['external-helpers'],
     }),
+  ],
+  external: [
+    'ramda',
+    'react',
+    'prop-types',
+    'recompose',
   ],
 };
